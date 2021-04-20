@@ -23,4 +23,6 @@ img {
     color: white;
     text-align: center;}
 
-.s1 {border: solid white; background-color: teal;}
+.s1 {background-color: teal; border-radius: 8px; margin: 2px; width: 33%;}
+.s2 {background-color: teal; border-radius: 8px; margin: 3px; width: 58%; }
+.s3 {background-color: teal; border-radius: 8px; margin: 3px; width: 41%;}
