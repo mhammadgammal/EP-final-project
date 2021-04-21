@@ -16,10 +16,20 @@
     </head>
 <body>
   <!--navs-->
- <ul class="nav nav-pills ">
+ <ul class="nav nav-pills">
   <li role="presentation" class="active"><a href="#">بليه</a></li>
-  <li role="presentation"><a href="#">home</a></li>
   <li role="presentation"><a href="#">profile <output></output></a></li>
+
+  <li role="presentation" class="dropdown"> <!--drop down-->
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      your Information <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu"> <!--drop down menu-->
+      <li> <img src="images/User photo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="username"> UserName:      </a></li>
+      <li> <img src="images/User photo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="Password"> Password:*********</a></li>
+      <li><a href="#">History</a></li>
+    </ul>
+
   <li role="presentation" class="dropdown"> <!--drop down-->
     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
       Our specialties <span class="caret"></span>
@@ -30,17 +40,13 @@
      <li> <a href="#" target="_blank" > Electrician </a></li>
     </ul>
   <li role="presentation"><a href="#">sign out <output></output></a></li>
+  <li>
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">comming soon</a>
+  </li>
   <img src="images/logo.png" alt="logo" class="logo">
  </ul> <!--end nav bar-->
 <!-- carousel--> 
-<div id="carousel_1" class="carousel slide " data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel_1" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel_1" data-slide-to="1"></li>
-    <li data-target="#carousel_1" data-slide-to="2"></li>
-  </ol>
-
+<div id="carousel_1" class="carousel slide  col-xs-12" data-ride="carousel">
   <!-- Wrapper for slides -->
   <div class="carousel-inner carousel" role="listbox">
     <div class="item active">
@@ -81,31 +87,98 @@
   We offer honest and good workers daily at a reasonable price <br>
   All our workers are well experienced <br>
   We offer good price for high efficiency <br>
-  <br>
-  <br>
+  <br> <br> <br>
+ 
 </section>
 <section class="col-xs-6 s2" >
   we hope we can connect people that needs workers such as  electricians, carpenters and plumbers
   with each other to faciliate searching for a good worker as a user and facilate looking for a task as a worker.<br><br><br><br><br><br> 
 </section>
 <section class="col-xs-5 s3" >
-  <img src="images/image1.jpg" alt="..." class="image" height="120px" width="120px">
-  <img src="images/image2.jpg" alt="..." class="image" height="120px" width="120px">
-  <img src="images/image1.jpg" alt="..." class="image" height="120px" width="120px">
-  <img src="images/image2.jpg" alt="..." class="image" height="120px" width="120px">
-  <img src="images/image1.jpg" alt="..." class="image" height="120px" width="110px">
+  <img src="images/image1.jpg" alt="Carpenter" class="image" height="120px" width="120px">
+  <img src="images/image2.jpg" alt="Carpenter" class="image" height="120px" width="120px">
+  <img src="images/image1.jpg" alt="Carpenter" class="image" height="120px" width="120px">
+  <img src="images/image2.jpg" alt="Carpenter" class="image" height="120px" width="120px">
 
 </section>
 </div>
-<footer class="footer">  
-  <div class="attribution">
-    Challenge by 
-     <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-      >Frontend Mentor</a
-    >. Coded by <a href="#">gg</a>.
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start footer col-xs-12">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">About us</h5>
+
+        <p>
+          We are team 2 web <br>
+          This site developed by:
+          Mohmaed Ayman 
+          Mohmaed Gamal
+          Mazen Adel 
+          Youssef Yehia 
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Content us</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li class="text-dark">
+            Facebook
+          </li>
+          <li class="text-dark">
+            Instgram
+          </li>
+          <li class="text-dark">
+            Twitter
+          </li>
+          <li class="text-dark">
+           Linkedin
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.facebook.com/Energia.Powered" target="_blank" class="text-dark">EP Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/energia.powered/?fbclid=IwAR1moLkjzfi2aq-xcdzWDclhKrVwkK8ukmv_k-6OnFuquRttloPzNG8AyZA" target="_blank" class="text-dark">EP Instgram</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Energia_Powered?fbclid=IwAR32YRMbs3cCd4MhuRlnc6WKO5zk7wq3ntKbQWxp2Y4pCMOHPwoel1V16YU" target="_blank" class="text-dark">EP Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/energiapowered/?fbclid=IwAR0dsP3boMwf7fpkGSDF7Jvu0dznEMnwcWSrIWxuc3-N-6U8J7nb_grwETk" target="_blank" class="text-dark">EP Linkedin</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
   </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
 </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<!-- Footer -->
+    </div> <!-- /container -->       
+       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
