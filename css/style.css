@@ -1,7 +1,7 @@
 body{
     padding: 5px;
-
     font-size: medium;
+    background-color:rgb(0, 0, 87);
 }
 .nav {background-color:black;  position: relative; bottom: 4px; right: 4px; width: 100.5%;}
 .carousel-inner > .item > img {
