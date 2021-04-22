@@ -26,8 +26,10 @@
 }
 .done{
     background-color: rgb(32, 182, 228);
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 15%;
+    width:fit-content;
+    height: fit-content;
 }
 .logobook{
     height: 150px;
