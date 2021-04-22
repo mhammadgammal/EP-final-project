@@ -50,4 +50,9 @@ body{
  }
  .s1 {width: 32%; margin: 2px;}
 }
+@media (max-width:444px) {
+    .s3{
+        width: fit-content;
+    }
+}
 
