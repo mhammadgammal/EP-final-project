@@ -14,7 +14,6 @@ body {
 
 h1 {
     text-align: center;
-
 }
 
 #logoin {
@@ -36,7 +35,6 @@ h1 {
 /* da goz2 zrayr el bootstrap */
 .social{ width: 40px;
     height: 40px;
-
 }
 /* da goz2 el media query */
 @media(max-width: 576px){
@@ -45,10 +43,7 @@ body{
     background-size: 100%;
 }
 .In{
-    margin-left: 15%;
-    
+    margin-left: 15%; 
 }
-
-
 }
 /* l7d hna da el Css bta3 el sign in */
