@@ -7,43 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortout icon" type="image/x-icon" href="images/logo.jpg">
     <link href="css/booking.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <title>booking</title>
 </head>
-<body class="carpenter">
 
+<body class="carpenter">
+<!--navs-->
+<ul class="nav nav-pills">
+    <li role="presentation" class="active"><a href="#">بليه</a></li>
+    <li role="presentation"><a href="#">profile <output></output></a></li>
+  
+    <li role="presentation" class="dropdown"> <!--drop down-->
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        your Information <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu"> <!--drop down menu-->
+        <li> <img src="images/User photo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="username"> UserName:      </a></li>
+        <li> <img src="images/User photo.jpeg" width="30" height="30" class="d-inline-block align-top" alt="Password"> Password:*********</a></li>
+        <li><a href="#">History</a></li>
+      </ul>
+  
+    <li role="presentation" class="dropdown"> <!--drop down-->
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+        Our specialties <span class="caret"></span>
+      </a>
+      <ul class="dropdown-menu"> <!--drop down menu-->
+       <li> <a href="carpenter.html" target="_blank" > Carpentry </a></li>
+       <li> <a href="plumber.html" target="_blank" > Plumbing </a></li>
+       <li> <a href="electrcian.html" target="_blank" > Electrician </a></li>
+       <li> <a href="builder.html" target="_blank" > builder </a></li>
+      </ul>
+    <li role="presentation"><a href="Sign in.html">sign out <output></output></a></li>
+    <li>
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">comming soon</a>
+    </li>
+    <img src="images/logo.png" alt="logo" class="logo">
+   </ul> <!--end nav bar-->
     <form >
+        <img src='images/logo.png' class='logobook'> 
             <h1> carpenter</h1>
             <input type="text" placeholder="your address"><br><br>
-
             <input type="date" placeholder="date"><br><br>
-    
             <input type="time" placeholder="time"><br><br>
-
             <div id='note'>
-            <b>    please note that the wage for an hour for the carpenter is 10$ </b><br><br>
+                <b>
+                    please note that the wage for an hour for the carpenter is 10$
+                </b><br><br>
             </div>
-
-           <a href="booked.html" target="_blank"> <button class='button'> book </button> </a> <br> <br>
-
-       
+           <a href="booked.html" target="_self"> <button class='button'> book </button> </a> <br> <br>
       </form>
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>

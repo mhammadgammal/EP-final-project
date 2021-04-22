@@ -29,11 +29,14 @@
     margin-left: 35%;
     margin-top: 15%;
 }
+.logobook{
+    height: 150px;
+    width: 160px;
+}
 form {
     height: fit-content;
     width:fit-content;
     background-color: rgb(32, 182, 228);
     margin-left: 35%;
-    margin-top: 15%;
     text-align: center;
 }
