@@ -1,0 +1,39 @@
+.carpenter {
+    background-image: url(../images/carpenter.jpeg);
+    background-size: 100%;
+    height: 100%;
+}
+.builder {
+    background-image: url(../images/builder.jpeg);
+    background-size: 100%;
+    height: 100%;
+}
+.electrician {
+    background-image: url(../images/electrician.jpg);
+    background-size: 100%;
+    height: 100%;
+}
+.plumber {
+    background-image: url(../images/plumber.jpeg);
+    background-size: 100%;
+    height: 100%;
+}
+.booked{
+    background-image: url(../images/back-ground.jpg);
+    background-size: 100%;
+    height: 100%;
+    text-align: center;
+}
+.done{
+    background-color: rgb(32, 182, 228);
+    margin-left: 35%;
+    margin-top: 15%;
+}
+form {
+    height: fit-content;
+    width:fit-content;
+    background-color: rgb(32, 182, 228);
+    margin-left: 35%;
+    margin-top: 15%;
+    text-align: center;
+}
